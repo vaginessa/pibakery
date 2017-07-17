@@ -1,0 +1,16 @@
+{
+	"name": "updatepackagelist",
+	"text": "Update package list\\nRequires internet connection",
+	"script": "updatepackagelist.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Update package list. Used prior to installing packages. Internet connection required.",
+	"longDescription":"This block is exactly the same as running apt-get update, and allows you to easily the package list, so you can install the most recent version of the packages you inted to install. An internet connection will be required for this to work."
+}
